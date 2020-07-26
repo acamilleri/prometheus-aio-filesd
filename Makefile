@@ -1,4 +1,4 @@
-.PHONY: lint run up build binary
+.PHONY: lint run up build binary test
 
 VERSION = $(shell git rev-parse --verify HEAD)
 
@@ -21,3 +21,6 @@ run:
 lint:
 	@go get -u golang.org/x/lint/golint
 	golint ./...
+
+test:
+	go test -v -cover ./...
