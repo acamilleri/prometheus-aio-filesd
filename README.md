@@ -1,5 +1,7 @@
 # Prometheus all in one file_sd integration
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/acamilleri/prometheus-aio-filesd)](https://goreportcard.com/report/github.com/acamilleri/prometheus-aio-filesd)
+
 This project provides a Provider interface to easily integrate any provider
 to fetch some targets to export a compatible Prometheus file_sd format.
 
