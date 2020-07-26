@@ -16,7 +16,7 @@ You can find an example [here](./examples/docker-compose).
 List of available providers:
 - Docker
 
-Feel free to contribute to adding new providers or [create a provider integration request with an issue](https://github.com/acamilleri/prometheus-aio-filesd/issues/new?labels=providers%2Frequest&template=provider_request.md&title=Add%20...%20provider) :)
+Feel free to contribute to adding new providers or [create a provider integration request with an issue](https://github.com/acamilleri/prometheus-aio-filesd/issues/new?assignees=&labels=provider%2Frequest&template=provider-request.md&title=%5BProvider%5D+Add+...) :)
 
 # Build from source
 
