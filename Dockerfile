@@ -4,7 +4,7 @@ ARG version
 
 COPY ./ /go/prometheus-aio-filesd
 WORKDIR /go/prometheus-aio-filesd
-RUN go build -ldflags "-X main.version=$version" cmd/filesd.go -O prometheus-aio-filesd
+RUN go build -ldflags "-X main.version=$version" cmd/prometheus-aio-filesd.go
 
 
 FROM busybox:glibc
