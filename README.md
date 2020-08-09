@@ -35,5 +35,4 @@ $ make build
 # TODO:
 - Improve code (tests!, logger, comments, ..)
 - Adding metrics
-- Add CI
 - Add more providers
