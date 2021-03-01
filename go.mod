@@ -11,8 +11,8 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/prometheus/common v0.18.0
 	github.com/sirupsen/logrus v1.7.0
-	github.com/prometheus/common v0.14.0
 	github.com/stretchr/testify v1.6.1
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
