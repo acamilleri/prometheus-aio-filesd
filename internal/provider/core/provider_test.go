@@ -29,7 +29,7 @@ func TestListAvailableProviders(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ListAvailableProviders(); !assert.EqualValues(t, got, tt.want) {
+			if got := ListAvailableProviders(); !assert.ElementsMatch(t, got, tt.want) {
 				t.Errorf("ListAvailableProviders() = %v, want %v", got, tt.want)
 			}
 		})
