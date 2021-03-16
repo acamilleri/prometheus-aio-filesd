@@ -24,7 +24,7 @@ func TestListFormatterAvailable(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ListFormatterAvailable(); !assert.EqualValues(t, got, tt.want) {
+			if got := ListFormatterAvailable(); !assert.ElementsMatch(t, got, tt.want) {
 				t.Errorf("ListFormatterAvailable() = %v, want %v", got, tt.want)
 			}
 		})
