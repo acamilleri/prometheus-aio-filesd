@@ -25,7 +25,7 @@ func TestListAvailableWriters(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ListAvailableWriters(); !assert.EqualValues(t, got, tt.want) {
+			if got := ListAvailableWriters(); !assert.ElementsMatch(t, got, tt.want) {
 				t.Errorf("ListAvailableWriters() = %v, want %v", got, tt.want)
 			}
 		})
